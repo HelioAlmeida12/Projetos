@@ -1810,6 +1810,10 @@
         </div>
     </div>
 
+    <!-- A ordem como você importa os arquivos faz toda diferença. -->
+    <!-- É importante esta nessa ordem pois, quando carregado a "calculadora" todo controle de calculo estará carregado. Se ficar com a ordem ao contrario
+     resultara em um erro.  -->
+    <script src="scripts/controller/CalcController.js"></script> <!--A nossa class é a CalcController -->
     <script src="scripts/calculadora.js"></script>
 </body>
 
